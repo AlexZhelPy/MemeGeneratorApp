@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Создание своего мема</h1>
+        <form action="/generate" method="post">
+            <label for="top-text">Верхний текст:</label>
+            <input type="text" id="top-text" name="top_text" placeholder="Ваш верхний текст..." required>
+
+            <label for="bottom-text">Нижний текст:</label>
+            <input type="text" id="bottom-text" name="bottom_text" placeholder="Ваш нижний текст..." required>
+
+            <label for="font-size">Размер шрифта:</label>
+            <input type="number" id="font-size" name="font_size" min="10" value="30" step="1">
+
+            <button type="submit">Создать мем</button>
+        </form>
+    </div>
+</body>
+</html>
