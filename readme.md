@@ -22,7 +22,7 @@ pip install flask pillow
 Склонируйте репозиторий и установите зависимости:
 
 ````
-git clone https://github.com/yourusername/meme-generator.git
+git clone https://github.com/AlexZhelPy/MemeGeneratorApp.git
 cd meme-generator
 pip install -r requirements.txt
 ````
